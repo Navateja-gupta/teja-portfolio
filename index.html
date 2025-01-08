@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Portfolio</title>
+
+
+   <!-- bootstrap css cdn-->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+   <!-- aos -->
+   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+   <!-- animatestyle -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+   <!-- GSAP -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollToPlugin.min.js"></script>
+
+   <!-- css -->
+   <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+
+   <!-- <video autoplay muted loop id="myVideo">
+      <source src="img/bgvideo.mp4" type="video/mp4">
+   </video> -->
+
+
+
+   <!-- homepage -->
+   <div class="background" id="home">
+
+      <!-- navbar -->
+
+      <nav>
+         <div class="container">
+            <div class="row navitems">
+               <div class="col navitem"><a class="nav_link" href="#home">HOME</a></div>
+               <div class="col navitem"><a class="nav_link" href="#project">PROJECT</a></div>
+               <div class="col navitem"><a class="nav_link" href="#contact">CONTACT</a></div>
+               <div class="col navitem">
+                  <a class="nav_link"
+                     href="https://drive.google.com/file/d/1YUMHxdtyn0jibS5ccXxwD26xk2U7D0zN/view?usp=drivesdk"
+                     download target="_blank">
+                     RESUME
+                  </a>
+               </div>
+            </div>
+
+         </div>
+      </nav>
+
+
+      <!-- introsection -->
+      <section class="intro">
+         <div class="container intro_container">
+            <div class="row intro_boxes">
+               <div class="col-lg-6 col-md-12 intro_box1" data-aos="fade-in-left">
+                  <div class="name_bio">
+                     <p class="name">
+                        Hi, I'm Gogula Navateja
+                     </p>
+                     <p class="bio">
+                        Recently completed my Bachelor's degree in Computer Science and Engineering from Matrusri Engineering College(MECS), fueled by an insatiable curiosity for emerging technologies and a passion for innovation. 🚀 Throughout my academic journey, I've delved into the dynamic world of computer science, embracing a range of courses that cover algorithms, data structures, Web Technologies and software development methodologies.
+                     </p>
+                  </div>
+               </div>
+               <div class="col-lg-6 col-md-12 intro_box2 animate__animated animate__fadeInRight">
+                  <div class="box2_svg">
+                     <!-- <div class="box2_svg_img1"> -->
+                     <lottie-player class="box2_svg_img1"
+                        src="https://assets8.lottiefiles.com/packages/lf20_vnikrcia.json" background="transparent"
+                        speed="1" loop autoplay></lottie-player>
+                     <!-- </div> -->
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+
+   </div>
+
+
+   <div class="fron_project_to_end">
+      <!-- project -->
+
+      <section class="project" id="project">
+         <div class="project_heading">Projects</div>
+         <div class="project_box">
+            <div class="container">
+               <!-- <div class="row project_row">
+                  <div class="col-lg-7 project_img project_img1" data-aos="slide-left" data-aos-duration="1500"
+                     style="transition: 1.5s;">
+                  </div>
+                  <div class="col-lg-5 project_info">
+                     <div class="project_title">
+                        Arcade
+                     </div>
+                     <div class="project_detail">
+                        It is a fully responsive gaming website where user can play a lot of different games.
+                        I initially created many games like Ping Pong, Snake games, Tic Tac Toe, Simon game and then
+                        linked them all together to built this arcade.
+                     </div>
+                     <div class="project_demo">
+                        <a href="https://vivek7777777.github.io/arcade/"><button class="project_link">View</button></a>
+                     </div>
+                  </div>
+               </div> -->
+               <div class="row project_row">
+                  <div class="col-lg-7 project_img project_img1" data-aos="slide-left" data-aos-duration="1500"
+                     style="transition: 1.5s;">
+                  </div>
+                  <div class="col-lg-5 project_info">
+                     <div class="project_title">
+                        Ecommerce website
+                     </div>
+                     <div class="project_detail">
+                        Created a fully functional and responsive E-commerce website using HTML, CSS, Bootstrap.
+                        It is a simple design which helps user to navigate through the products easily.
+                        It also contain product description.
+                     </div>
+                     <div class="project_demo">
+                        <a href="https://navateja-gupta.github.io/Amazon-Clone/"><button class="project_link">View</button></a>
+                     </div>
+                  </div>
+               </div>
+
+
+               <div class="row project_row">
+                  <div class="col-lg-5 project_info project_info_even ">
+                     <div class="project_title">
+                       Ping Pong Game
+                     </div>
+                     <div class="project_detail">
+                        A dynamic and engaging Ping Pong game built from scratch using HTML, CSS, and JavaScript. This endeavor allowed me to fuse creativity and technical skills, creating a visually appealing game interface with HTML and CSS while implementing smooth and interactive gameplay mechanics using JavaScript. From crafting the game board layout to implementing ball movement and paddle controls, every aspect reflects my commitment to delivering a fun and seamless user experience. This project not only deepened my proficiency in front-end technologies but also honed my problem-solving abilities as I navigated the intricacies of game logic.
+                     </div>
+                     <div class="project_demo">
+                        <a href="https://navateja-gupta.github.io/ping-pong-game/"><button
+                              class="project_link">View</button></a>
+                     </div>
+                  </div>
+                  <div class="col-lg-7 project_img project_img2" data-aos="slide-right" data-aos-duration="1500"
+                     style="transition: 1.5s;"></div>
+               </div>
+
+
+               <div class="row project_row">
+                  <div class="col-lg-7 project_img project_img3" data-aos="slide-left" data-aos-duration="1500"
+                     style="transition: 1.5s;"></div>
+                  <div class="col-lg-5 project_info">
+                     <div class="project_title">
+                        Calculator
+                     </div>
+                     <div class="project_detail">
+
+                        This project seamlessly integrates a sleek user interface with real-time functionality, allowing users to perform standard arithmetic operations with ease. The calculator features responsive design, ensuring optimal user experience across devices. 
+                     </div>
+                     <div class="project_demo">
+                        <a href="https://navateja-gupta.github.io/Calculator/"><button
+                              class="project_link">View</button></a>
+                     </div>
+                  </div>
+               </div>
+
+               
+               <div class="row project_row">
+                  <div class="col-lg-5 project_info project_info_even ">
+                     <div class="project_title">
+                       Rice Leaf Disease Detection
+                     </div>
+                     <div class="project_detail">
+                        An agriculture-focused project leveraging Convolutional Neural Networks (CNN) to develop a robust rice plant disease detection system.
+                        Successfully addressed challenges posed by major rice diseases - leaf blast, brown spot, and bacterial leaf blight enabling early detection and intervention.
+                        Applied cutting-edge technologies including NumPy, Pandas, Matplotlib, Scikitlearn, Keras, and TensorFlow in the implementation of the CNN model.
+                     </div>
+                     <div class="project_demo">
+                        <a href="https://github.com/Navateja-gupta/paddy_crop_disease_detection"><button
+                              class="project_link">View</button></a>
+                     </div>
+                  </div>
+                  <div class="col-lg-7 project_img project_img4" data-aos="slide-right" data-aos-duration="1500"
+                     style="transition: 1.5s;"></div>
+               </div>
+
+            
+               <div class="row project_row">
+                  <div class="col-lg-7 project_img project_img5" data-aos="slide-left" data-aos-duration="1500"
+                     style="transition: 1.5s;"></div>
+                  <div class="col-lg-5 project_info">
+                     <div class="project_title">
+                        Optimizing Railway Complaints
+                     </div>
+                     <div class="project_detail">
+
+                        Implemented a solution to optimize responses to customer complaints on Twitter using machine learning techniques. Utilized Naive Bayes and logistic regression algorithms to
+analyze and categorize complaints, enabling efficient response prioritization and resolution. Developed a robust system for analyzing and categorizing customer complaints on Twitter,
+enhancing efficiency in railway operations. Applied cutting-edge technologies including Python, Natural Language Processing (NLP), Machine Learning, Naive Bayes, Logistic Regression.
+                     </div>
+                     <div class="project_demo">
+                        <a href="https://github.com/Navateja-gupta/Optimizing-Railway-Responses-"><button
+                              class="project_link">View</button></a>
+                     </div>
+                  </div>
+               </div>
+
+               <div class="show_all_project">
+                  <a href="https://github.com/Navateja-gupta" target="_blank">
+                     <lottie-player class="all_project_icon"
+                        src="https://assets1.lottiefiles.com/packages/lf20_80nu1g6c.json" speed="1" loop
+                        autoplay></lottie-player>
+                  </a>
+
+               </div>
+            </div>
+
+
+
+
+         </div>
+      </section>
+
+
+
+
+      <!-- why you -->
+      <!-- <section class="project why" id="why">
+   <div class="project_heading why_heading">Why you?</div>
+   <div class="why_box">
+         <div class="items item1" data-aos="flip-up" >
+            Quality
+            <div class="items item2 " data-aos="fade-up-left" data-aos-duration="1500">Cost</div>
+            <div class="items item3 " data-aos="fade-up-right" data-aos-duration="1500">Speed</div>
+         </div>
+      </div>
+   </section> -->
+
+
+
+      <!-- skills -->
+      <section class="skill_section">
+         <div class="skill_heading ">
+            <div class="skill_project_heading">
+               Skills
+            </div>
+
+         </div>
+         <img src="img/circle-spin.svg" alt="">
+         <img src="img/circle-spin.svg" alt="">
+         <div class="all_skills">
+            <div class="my_skills container">
+
+               <div class="row skill_row">
+                  <div class="col-md-5 col-sm-5 col-5 skillset">
+                     <div class="skill_set1">
+
+                        <div class="skill_in_set1 react">
+                          C
+                        </div>
+                        <div class="skill_in_set1 node">
+                           DSA
+                        </div>
+                        <div class="skill_in_set1 jquery">
+                           HTML
+                        </div>
+                        <div class="skill_in_set1 mysql">
+                           JavaScript
+                        </div>
+                        <div class="skill_in_set1 api">
+                           DBMS 
+                        </div>
+
+                     </div>
+
+                  </div>
+
+                  <div class="col-md-2 col-sm-2 col skill_line">
+                     <div class="box">
+
+                     </div>
+                  </div>
+
+                  <div class="col-md-5 col-sm-5 col-5 skillset">
+                     <div class="skill_set2">
+
+                        <div class="skill_in_set2 javascript">
+                           JAVA
+                        </div>
+                        <div class="skill_in_set2 express">
+                           Python
+                        </div>
+                        <div class="skill_in_set2 mongo">
+                         CSS
+                        </div>
+                        <div class="skill_in_set2 bootstarp">
+                           BOOTSTRAP
+                        </div>
+                        <div class="skill_in_set2 css">
+                           MYSQL
+                        </div>
+
+                     </div>
+
+                  </div>
+               </div>
+
+            </div>
+         </div>
+      </section>
+
+
+
+
+
+
+      <!-- contact -->
+      <section class="main_contact" id="contact">
+         <div class="container">
+
+            <div class="row contact_heading ">
+               <div class="contact_heading_content col-md-6">
+                  <p class="cline2">
+                     Let's work together
+                  </p>
+                  <div class="contact_heading_content_img">
+                     <lottie-player src="https://assets1.lottiefiles.com/packages/lf20_w6y7r1ap.json"
+                        background="transparent" speed="1" loop autoplay></lottie-player>
+                  </div>
+               </div>
+               <div class="contact_heading_svg col-md-6">
+                  <lottie-player src="https://assets7.lottiefiles.com/packages/lf20_w7x9i6ag.json"
+                     background="transparent" speed="1" loop autoplay></lottie-player>
+               </div>
+            </div>
+         </div>
+
+
+         <div class="circular_box">
+            <div class="contact">
+               <a class="contact_icons cicon1" href="https://github.com/Navateja-gupta" target="_blank">
+                  <lottie-player class="github" src="https://assets1.lottiefiles.com/packages/lf20_6HFXXE.json"
+                     background="transparent" speed="2" loop autoplay></lottie-player>
+               </a>
+               <a class="contact_icons cicon2" href="https://www.linkedin.com/in/gogula-navateja-455589238/" target="_blank">
+                  <lottie-player class="linkedin" src="https://assets9.lottiefiles.com/packages/lf20_0Cm1Y2.json"
+                     background="transparent" speed="1" loop autoplay></lottie-player>
+               </a>
+               <a class="contact_icons cicon3" href="mailto: gogulanavateja1910@gmail.com" target="_blank">
+                  <lottie-player class="gmail" src="https://assets10.lottiefiles.com/packages/lf20_a0reautd.json"
+                     background="transparent" speed="1" loop autoplay></lottie-player>
+               </a>
+               <a class="contact_icons cicon4" href="https://x.com/NavatejaGogula?t=luJxowDZ7YsvTj2Q1U1iFg&s=08" target="_blank">
+                  <lottie-player class="twitter" src="https://assets1.lottiefiles.com/private_files/lf30_oxdthhr1.json"
+                     background="transparent" speed="1" loop autoplay></lottie-player>
+               </a>
+            </div>
+         </div>
+      </section>
+
+
+   </div>
+
+
+
+   <!-- bootstrap js cdn -->
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"></script>
+
+   <!-- aos -->
+   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+   <!-- jquerry cdn-->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+
+   <!-- icon -->
+   <!-- <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script> -->
+   <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
+
+
+   <!-- js -->
+   <script src="script.js"></script>
+
+</body>
+
+</html>
